@@ -1,0 +1,276 @@
+{
+    "name": "ibx-apt-frontend",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+      "@apidevtools/json-schema-ref-parser": "^9.0.9",
+      "@aws-amplify/cli": "^9.0.0",
+      "@aws-amplify/ui-react": "^2.1.10",
+      "@babel/core": "^7.16.0",
+      "@babel/eslint-parser": "^7.5.4",
+      "@devexpress/dx-core": "^3.0.3",
+      "@devexpress/dx-react-chart": "^3.0.3",
+      "@devexpress/dx-react-chart-material-ui": "^3.0.3",
+      "@devexpress/dx-react-core": "^3.0.3",
+      "@devexpress/dx-react-grid": "^3.0.3",
+      "@devexpress/dx-react-grid-material-ui": "^3.0.3",
+      "@emotion/core": "^11.0.0",
+      "@emotion/react": "^11.5.0",
+      "@emotion/styled": "^11.3.0",
+      "@fontsource/roboto": "^4.5.3",
+      "@json-forms/react": "3.0.0-gamma.3",
+      "@jsonforms/core": "3.0.0-alpha.3",
+      "@jsonforms/material-renderers": "3.0.0-alpha.3",
+      "@jsonforms/react": "3.0.0-alpha.3",
+      "@material-ui/core": "^5.0.0-beta.5",
+      "@mui/icons-material": "^5.8.0",
+      "@mui/lab": "^5.0.0-alpha.58",
+      "@mui/material": "^5.7.0",
+      "@mui/styles": "^5.7.0",
+      "@mui/x-data-grid": "^5.11.1",
+      "@mui/x-data-grid-pro": "^5.11.1",
+      "@pmmmwh/react-refresh-webpack-plugin": "^0.5.3",
+      "@reduxjs/toolkit": "^1.7.1",
+      "@svgr/webpack": "^6.2.1",
+      "@testing-library/jest-dom": "^5.16.4",
+      "@testing-library/react": "^13.2.0",
+      "@testing-library/user-event": "^13.5.0",
+      "@tinymce/tinymce-react": "^4.3.0",
+      "aws-amplify": "^4.3.11",
+      "axios": "^0.21.4",
+      "babel-jest": "^27.4.2",
+      "babel-loader": "^8.2.3",
+      "babel-plugin-named-asset-import": "^0.3.8",
+      "bfj": "^7.0.2",
+      "browserslist": "^4.18.1",
+      "camelcase": "^6.2.1",
+      "case-sensitive-paths-webpack-plugin": "^2.4.0",
+      "crypto-js": "^4.1.1",
+      "css-minimizer-webpack-plugin": "^3.2.0",
+      "csv-file-validator": "^2.0.0",
+      "dayjs": "^1.11.3",
+      "dompurify": "^3.0.6",
+      "dotenv": "^10.0.0",
+      "dotenv-expand": "^5.1.0",
+      "eslint": "^8.3.0",
+      "eslint-config-react-app": "^7.0.0",
+      "eslint-webpack-plugin": "^3.1.1",
+      "file-loader": "^6.2.0",
+      "fs-extra": "^10.0.0",
+      "html-webpack-plugin": "^5.5.0",
+      "identity-obj-proxy": "^3.0.0",
+      "jest": "^27.4.3",
+      "jest-resolve": "^27.4.2",
+      "jest-watch-typeahead": "^1.0.0",
+      "match-sorter": "^6.3.1",
+      "mini-css-extract-plugin": "^2.4.5",
+      "moment": "^2.29.3",
+      "moment-timezone": "^0.5.34",
+      "papaparse": "^5.3.2",
+      "postcss": "^8.4.4",
+      "postcss-flexbugs-fixes": "^5.0.2",
+      "postcss-loader": "^6.2.1",
+      "postcss-normalize": "^10.0.1",
+      "postcss-preset-env": "^7.0.1",
+      "prompts": "^2.4.2",
+      "prop-types": "^15.8.1",
+      "qs": "^6.10.3",
+      "react": "^18.1.0",
+      "react-app-polyfill": "^3.0.0",
+      "react-barcode-reader": "^0.0.2",
+      "react-beautiful-dnd": "^13.1.0",
+      "react-csv": "^2.2.2",
+      "react-dev-utils": "^12.0.0",
+      "react-dom": "^18.1.0",
+      "react-file-drop": "^3.1.3",
+      "react-hook-form": "^7.30.0",
+      "react-hook-form-mui": "^3.2.1",
+      "react-idle-timer": "^5.6.2",
+      "react-material-ui-form-validator": "^3.0.0",
+      "react-moment": "^1.1.2",
+      "react-mui-fileuploader": "^0.1.2",
+      "react-query": "^3.39.0",
+      "react-redux": "^7.2.6",
+      "react-refresh": "^0.11.0",
+      "react-router-dom": "^5.2.0",
+      "react-toastify": "^8.2.0",
+      "react-tsparticles": "^1.43.1",
+      "reactstrap": "^9.1.1",
+      "redux-thunk": "^2.4.1",
+      "reselect": "^4.1.5",
+      "resolve": "^1.20.0",
+      "resolve-url-loader": "^4.0.0",
+      "sass-loader": "^12.3.0",
+      "semver": "^7.3.5",
+      "source-map-loader": "^3.0.0",
+      "style-loader": "^3.3.1",
+      "styled-components": "^5.3.5",
+      "tailwindcss": "^3.0.2",
+      "terser-webpack-plugin": "^5.2.5",
+      "tsparticles-engine": "^2.0.0-beta.0",
+      "tsparticles-preset-bubbles": "^1.43.1",
+      "typeface-cormorant": "^1.1.13",
+      "use-debounce": "^8.0.1",
+      "web-vitals": "^2.1.2",
+      "webpack": "^5.64.4",
+      "webpack-dev-server": "^4.6.0",
+      "webpack-manifest-plugin": "^4.0.2",
+      "workbox-webpack-plugin": "^6.4.1"
+    },
+    "scripts": {
+      "pre:build": "npm run build:clean && npm run build:copy",
+      "build:clean": "rimraf dist",
+      "start": "node scripts/start.js",
+      "build": "node scripts/build.js",
+      "build-dev": "node scripts/build-dev.js",
+      "build-qas": "node scripts/build-qas.js",
+      "test": "node scripts/test.js",
+      "deploy": "aws s3 sync ./build s3://sampledsphere-frontend-prod --delete",
+      "deploy-qas": "aws s3 sync ./build s3://sampledsphere-frontend-qas --delete",
+      "deploy-dev": "aws s3 sync ./build s3://sampledsphere-frontend-dev --delete",
+      "invalidate-cache": "aws cloudfront create-invalidation --distribution-id E3HJ64NF9IJ8M5 --paths '/*'",
+      "invalidate-cache-dev": "aws cloudfront create-invalidation --distribution-id E3RHHO9XYMFBJU --paths '/*'",
+      "invalidate-cache-qas": "aws cloudfront create-invalidation --distribution-id E373LG8MXJ7IHZ --paths '/*'"
+    },
+    "engines": {
+      "node": ">=8.0.0"
+    },
+    "eslintConfig": {
+      "extends": [
+        "eslint:recommended",
+        "plugin:react/recommended",
+        "plugin:import/errors",
+        "plugin:import/warnings",
+        "react-app",
+        "react-app/jest"
+      ],
+      "parser": "@babel/eslint-parser",
+      "parserOptions": {
+        "ecmaVersion": 2018,
+        "requireConfigFile": false,
+        "sourceType": "module",
+        "ecmaFeatures": {
+          "jsx": true
+        }
+      },
+      "env": {
+        "browser": true,
+        "node": true,
+        "es6": true,
+        "jest": true
+      },
+      "rules": {
+        "no-debugger": "off",
+        "no-console": "off",
+        "no-unused-vars": "warn",
+        "react/prop-types": "off",
+        "react/react-in-jsx-scope": "off",
+        "react/display-name": "off",
+        "react-hooks/rules-of-hooks": "off",
+        "react/jsx-filename-extension": [
+          1,
+          {
+            "extensions": [
+              ".js",
+              ".jsx"
+            ]
+          }
+        ]
+      },
+      "settings": {
+        "react": {
+          "version": "detect"
+        }
+      },
+      "root": true
+    },
+    "browserslist": {
+      "production": [
+        ">0.2%",
+        "not dead",
+        "not op_mini all"
+      ],
+      "development": [
+        "last 1 chrome version",
+        "last 1 firefox version",
+        "last 1 safari version"
+      ],
+      "qas": [
+        "last 1 chrome version",
+        "last 1 firefox version",
+        "last 1 safari version"
+      ]
+    },
+    "jest": {
+      "roots": [
+        "<rootDir>/src"
+      ],
+      "collectCoverageFrom": [
+        "src/**/*.{js,jsx,ts,tsx}",
+        "!src/**/*.d.ts"
+      ],
+      "setupFiles": [
+        "react-app-polyfill/jsdom"
+      ],
+      "setupFilesAfterEnv": [
+        "<rootDir>/src/setupTests.js"
+      ],
+      "testMatch": [
+        "<rootDir>/src/**/__tests__/**/*.{js,jsx,ts,tsx}",
+        "<rootDir>/src/**/*.{spec,test}.{js,jsx,ts,tsx}"
+      ],
+      "testEnvironment": "jsdom",
+      "transform": {
+        "^.+\\.(js|jsx|mjs|cjs|ts|tsx)$": "<rootDir>/config/jest/babelTransform.js",
+        "^.+\\.css$": "<rootDir>/config/jest/cssTransform.js",
+        "^(?!.*\\.(js|jsx|mjs|cjs|ts|tsx|css|json)$)": "<rootDir>/config/jest/fileTransform.js"
+      },
+      "transformIgnorePatterns": [
+        "[/\\\\]node_modules[/\\\\].+\\.(js|jsx|mjs|cjs|ts|tsx)$",
+        "^.+\\.module\\.(css|sass|scss)$"
+      ],
+      "modulePaths": [],
+      "moduleNameMapper": {
+        "^react-native$": "react-native-web",
+        "^.+\\.module\\.(css|sass|scss)$": "identity-obj-proxy"
+      },
+      "moduleFileExtensions": [
+        "web.js",
+        "js",
+        "web.ts",
+        "ts",
+        "web.tsx",
+        "tsx",
+        "json",
+        "web.jsx",
+        "jsx",
+        "node"
+      ],
+      "watchPlugins": [
+        "jest-watch-typeahead/filename",
+        "jest-watch-typeahead/testname"
+      ],
+      "resetMocks": true
+    },
+    "babel": {
+      "presets": [
+        "react-app"
+      ]
+    },
+    "devDependencies": {
+      "@material-ui/icons": "^4.11.3",
+      "babel-preset-react-app": "^10.0.1",
+      "css-loader": "^6.7.1",
+      "dotenv-webpack": "^8.0.1",
+      "enzyme": "^3.11.0",
+      "enzyme-adapter-react-16": "^1.15.6",
+      "react-scripts": "^5.0.1",
+      "react-test-renderer": "^18.1.0",
+      "redux-mock-store": "^1.5.4",
+      "start-server-and-test": "^1.11.6",
+      "typescript": "^4.7.2",
+      "webpack-bundle-analyzer": "^4.5.0",
+      "webpack-cli": "^4.9.2"
+    }
+  }
+  
